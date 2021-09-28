@@ -21,6 +21,11 @@ public class Main {
         System.out.println(aNewPerson.getName());
         // Main tryingTocallANonstaticMethod = new Main();
         // tryingTocallANonstaticMethod.nonstaticMethod();
+
+        OutterClass myOutter = new OutterClass();
+        OutterClass.InnerClass myInner = myOutter.new InnerClass();
+
+        System.out.println(myOutter.x - myInner.y);
     }
 
     public void fullThrottle(){
