@@ -16,6 +16,9 @@ public class Main {
         System.out.println(secondMainbObj.x);
 
         myStaticMethod();
+        Person aNewPerson = new Person();
+        aNewPerson.setName("John");
+        System.out.println(aNewPerson.getName());
         // Main tryingTocallANonstaticMethod = new Main();
         // tryingTocallANonstaticMethod.nonstaticMethod();
     }
